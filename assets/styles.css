@@ -1,7 +1,11 @@
 h1{
     color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-style: solid;
-    border-width: 0ch;
     background-color: yellowgreen;
     border-color: red;
+}
+.list :hover{
+    
+    background-color: rgba(0, 68, 255, 0.555);
 }
