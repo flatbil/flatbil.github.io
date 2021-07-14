@@ -5,7 +5,33 @@ h1{
     background-color: yellowgreen;
     border-color: red;
 }
-.list :hover{
+.menuhead {
+    display: none;
+    width: 200px;
+}
+.menuhead a{
+    background-color: #eee;
+    color:black;
+    display: block;
+    padding:12px;
+    text-decoration: none;
+}
+
+.menuhead a:hover{
     
     background-color: rgba(0, 68, 255, 0.555);
+
+}
+.menuhead a.active {
+    background-color: #04AA6D;
+    color:white;
+}
+nav{
+    display: block;
+    text-align: center;
+    position: absolute;
+    background-color: purple;
+}
+nav :hover .menuhead a{
+    display: block;
 }
