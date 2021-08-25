@@ -6,8 +6,7 @@ h1{
     border-color: red;
 }
 .menuhead {
-    display: none;
-    width: 200px;
+
 }
 .menuhead a{
     background-color: #eee;
@@ -34,4 +33,7 @@ nav{
 }
 nav :hover .menuhead a{
     display: block;
+}
+.bio{
+    text-align: center;
 }
